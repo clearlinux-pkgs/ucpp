@@ -5,7 +5,7 @@
 %define keepstatic 1
 Name     : ucpp
 Version  : 1.3.2
-Release  : 2
+Release  : 3
 URL      : https://dev-www.libreoffice.org/src/0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz
 Source0  : https://dev-www.libreoffice.org/src/0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz
 Summary  : No detailed summary available
@@ -46,11 +46,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1534637739
+export SOURCE_DATE_EPOCH=1534637823
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1534637739
+export SOURCE_DATE_EPOCH=1534637823
 rm -rf %{buildroot}
 %make_install
 
@@ -63,4 +63,5 @@ rm -rf %{buildroot}
 
 %files dev
 %defattr(-,root,root,-)
+/usr/include/*.h
 /usr/lib64/*.a
