@@ -5,7 +5,7 @@
 %define keepstatic 1
 Name     : ucpp
 Version  : 1.3.2
-Release  : 3
+Release  : 4
 URL      : https://dev-www.libreoffice.org/src/0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz
 Source0  : https://dev-www.libreoffice.org/src/0168229624cfac409e766913506961a8-ucpp-1.3.2.tar.gz
 Summary  : No detailed summary available
